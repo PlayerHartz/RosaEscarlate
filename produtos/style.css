@@ -108,16 +108,19 @@ html, body {
 .color-choose input[type="radio"]#red + label span {
   background-color: #C91524;
 }
+.color-choose input[type="radio"]#principal + label span {
+  background-color: #000000;
+}
 .color-choose input[type="radio"]#blue + label span {
   background-color: #314780;
 }
 .color-choose input[type="radio"]#black + label span {
   background-color: #323232;
 }
-.color-choose input[type="radio"]#mclaro + label span {
+.color-choose input[type="radio"]#cor01 + label span {
   background-color: #886A08;
 }
-.color-choose input[type="radio"]#mescuro + label span {
+.color-choose input[type="radio"]#cor02 + label span {
   background-color: #3B2E0B;
 }
 
