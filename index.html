@@ -1,44 +1,47 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="en" class="no-js">
 <head>
-  <meta charset="UTF-8">
-  <title>Rosa Escarlate</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-<link rel="stylesheet" href="./style.css">
-
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Rosa Escarlate</title>
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,600" rel="stylesheet">
+    <link rel="stylesheet" href="dist/css/style.css">
+	<script src="https://unpkg.com/animejs@3.0.1/lib/anime.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
 </head>
-<body>
-<!-- partial:index.partial.html -->
-<video autoplay loop muted poster="screenshot.jpg" id="background">
-        <source type="video/mp4" src="https://staging.coverr.co/s3/mp4/Boxing-gym.mp4">
-        <source type="video/webm" src="https://staging.coverr.co/s3/webm/Boxing-gym.webm">
-</video>
-<div class="main">
-  <div id='content'>
-    <div class='title'>
-      <span>Rosa Escarlate</span>
-    </div>
-    <p>Estamos Chegando</p>
-    <section>
-      <ul id="countdown">
-        <li><span class="days timenumbers">01</span>
-          <p class="timeRefDays timedescription">Dias</p>
-        </li>
-        <li><span class="hours timenumbers">00</span>
-          <p class="timeRefHours timedescription">horas</p>
-        </li>
-        <li><span class="minutes timenumbers">00</span>
-          <p class="timeRefMinutes timedescription">minutos</p>
-        </li>
-        <li><span class="seconds timenumbers yellow-text">00</span>
-          <p class="timeRefSeconds timedescription">segundos</p>
-        </li>
-      </ul>
-    </section>
-  </div>
-</div>
-<!-- partial -->
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script><script  src="./script.js"></script>
+<body class="is-boxed has-animations">
+    <div class="body-wrap">
+        <header class="site-header">
+            <div class="container">
+                <div class="site-header-inner">
+                    <div class="brand header-brand">
+                        <h1 class="m-0">
+							<a href="#">
+								<img class="header-logo-image" src="dist/images/logo.svg" alt="Logo">
+                            </a>
+                        </h1>
+                    </div>
+                </div>
+            </div>
+        </header>
 
+        <main>
+            <section class="hero">
+                <div class="container">
+                    <div class="hero-inner">
+						<div class="hero-copy">
+	                        <h1 class="hero-title mt-0">Transformando ideias em realidade</h1>
+	                        <p class="hero-paragraph">Baseando-se na promiscua que o cliente tem sempre razão, desenvolvemos conteudo voltado ao publico, do jeito que você pediu.</p>
+	                        <div class="hero-cta"><a class="button button-primary" href="#">Como funciona</a><a class="button" href="#">SAIBA MAIS</a></div>
+						</div>
+						
+            </section>
+
+           
+        </footer>
+    </div>
+
+    <script src="dist/js/main.min.js"></script>
 </body>
 </html>
